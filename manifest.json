@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Flash Reader",
+  "version": "0.0.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "flash.html"
+  }
+}
