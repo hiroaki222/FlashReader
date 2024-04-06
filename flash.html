@@ -11,9 +11,20 @@
         <div class="flex flex-col justify-center items-center h-screen w-screen">
             <div id="content">N/A</div>
             <script src="flash.js"></script>
-            <button onclick="play()">
-                <span class="material-symbols-outlined">play_circle</span>
-            </button>
+            <div>
+                <div class="flex justify-center gap-10">
+                    <button onclick="play()">
+                        <span class="material-symbols-outlined">skip_previous</span>
+                    </button>
+                    <button onclick="play()">
+                        <span class="material-symbols-outlined">play_circle</span>
+                    </button>
+                    <button onclick="play()">
+                        <span class="material-symbols-outlined">skip_next</span>
+                    </button>
+                </div>
+                <input type="range" name="speed" min="0" max="100">
+            </div>
         </div>
     </body>
 
